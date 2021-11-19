@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.Attachment{
+    background-color: #fff;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 19px 14px;
+    height: 82%;
+}
+.Attachment h4{
+    text-align: center;
+    font-family: century gothic;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+}
+.Attachment input:nth-child(3){
+    width: 90%;
+    margin-bottom: 1em;
+    padding: 8px;
+    border-radius: 5px;
+    color: #495057;
+    background-color: #fff;
+    /* background-clip: padding-box; */
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+    outline: 0;
+}
+
+input{
+    padding: 7px;
+    margin-top: 4px;
+}
+label{
+    font-weight: 600;
+    font-family: century gothic;
+}
+.btn{
+    width: 94.6%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-top: 4px;
+    outline: 2;
+    box-shadow: 1px 2px 1px 1px #999;
+}
